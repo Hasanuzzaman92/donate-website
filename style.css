@@ -1,0 +1,224 @@
+/* ==========================
+        common css
+============================= */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 65px;
+}
+
+h2{
+    font-size: 45px;
+    color: #121212;
+}
+
+p{
+    font-size: 18px;
+}
+
+
+.link-button{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    background-color: #FF5959;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+
+
+/* ==========================
+        Banner Section css
+============================= */
+
+#banner-section{
+    background: rgba(0,0,0,0.6)url(images/donation5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+}
+
+#banner-section .banner{
+    text-align: center;
+    color: #fff;
+    padding: 150px 0;
+}
+
+#banner-section .banner p{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+
+
+/* ==========================
+        Donate Section css
+============================= */
+
+#donate-section{
+    margin: 100px 0;
+}
+
+.description{
+    text-align: center;
+}
+
+.description p{
+    color: #707070;
+}
+
+#donate-section .donate-area{
+    display: flex;
+    margin: 60px 350px;
+}
+
+.donate-area .donate-amount{
+    margin: 5px;
+    background-color: #fafafa;
+    padding: 40px 20px;
+}
+
+.donate-area h3{
+    font-size: 30px;
+    color: #707070;
+    font-weight: bold;
+}
+
+.donate-area .donate-200{
+    border: 2px solid #FF5959;
+    background-color: rgba(251,139,118,0.4);
+    padding: 40px 20px;
+    margin: 5px;
+}
+
+.donate-area .donate-200 h3{
+    color: #FF5959;
+}
+
+#donate-section input{
+    padding: 10px 300px;
+    margin-left: 300px;
+}
+
+input[type=number] {
+    border: none;
+    border-bottom: 2px solid gray;
+  }
+
+#donate-section .donate-button{
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
+/* ==========================
+   Donate-plan Section css
+============================= */
+
+.donate-plan-area{
+    display: flex;
+    margin: 50px 150px;
+}
+
+.donate-plan-item{
+    width: 30%;
+    margin: 10px;
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+
+.first-item{
+    background-color: #EDF5F6;
+}
+.second-item{
+    background-color: #FFEEEE;
+}
+
+.third-item{
+    background-color: #FFF4D6;
+}
+
+.donate-plan-item h4{
+    font-size: 24px;
+    color: #121212;
+    padding: 10px 0;
+}
+
+.donate-plan-item p{
+    font-size: 16px;
+    color: #707070;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+/* ==========================
+   Update Section css
+============================= */
+
+#update-section{
+    margin: 100px 0;
+}
+
+.input-area{
+    margin: 50px 250px;
+    background-color: #FFF4D6;
+    padding: 80px 150px;
+}
+
+input[type=email]{
+    border: none;
+    width: 70%;
+    padding: 10px;
+    background-color: #D9D9D9;
+    margin: 0;
+    border-radius: 5px;
+}
+
+input[type=submit]{
+    border: none;
+    width: 20%;
+    padding: 10px 30px;
+    background-color: #FF5959;
+    margin: -5px;
+    color: white;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+/* ==========================
+   Footer Section css
+============================= */
+
+footer{
+    background-color: #121212;
+    text-align: center;
+    padding: 80px 0;
+}
+
+footer h2{
+    color: #FF5959;
+    font-size: 36px;
+    font-style: italic;
+}
+
+footer p{
+    font-size: 14px;
+    color: #D9DBE1;
+}
